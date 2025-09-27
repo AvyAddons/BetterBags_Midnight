@@ -1,0 +1,39 @@
+## Interface: 110107, 110200
+
+## Title: BetterBags - Midnight
+## Notes: Filter for common Midnight items in BetterBags.
+## Author: Avyiel
+## Version: @project-version@
+## IconTexture: Interface\Icons\inv_misc_bag_06
+## Category-enUS: Inventory
+## Category-deDE: Inventar
+## Category-esES: Inventario
+## Category-esMX: Inventario
+## Category-frFR: Inventaire
+## Category-itIT: Inventario
+## Category-koKR: 소지품
+## Category-ptBR: Inventário
+## Category-ruRU: Предметы
+## Category-zhCN: 物品栏
+## Category-zhTW: 物品欄
+
+## DefaultState: Enabled
+## Dependencies: BetterBags
+#@alpha@
+## OptionalDeps: BugSack, BugGrabber
+#@end-alpha@
+
+## X-Date: @project-date-iso@
+## X-Category: Bags & Inventory
+## X-License: MIT
+
+## X-Curse-Project-ID: 1354342
+## X-Wago-ID: b6XVzwGp
+
+db.lua
+main.lua
+
+#@debug@
+## Version: DEV
+## AllowAddOnTableAccess: 1
+#@end-debug@

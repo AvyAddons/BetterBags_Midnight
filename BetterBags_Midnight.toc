@@ -1,10 +1,10 @@
-## Interface: 110107, 110200
+## Interface: 110200, 110205
 
 ## Title: BetterBags - Midnight
 ## Notes: Filter for common Midnight items in BetterBags.
 ## Author: Avyiel
 ## Version: @project-version@
-## IconTexture: Interface\Icons\inv_misc_bag_06
+## IconTexture: Interface\Icons\inv_misc_bag_07_blue
 ## Category-enUS: Inventory
 ## Category-deDE: Inventar
 ## Category-esES: Inventario

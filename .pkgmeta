@@ -11,5 +11,7 @@ ignore:
     - annotations.lua
     - CHANGELOG.md
     - CODE_OF_CONDUCT.md
+    - CLAUDE.md
     - .editorconfig
     - .github
+    - .claude

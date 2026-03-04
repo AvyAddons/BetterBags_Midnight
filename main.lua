@@ -22,6 +22,9 @@ local ctx = context:New('BBMN_Event')
 for category, items in pairs(addon.db) do
 	categories:WipeCategory(ctx, L:G(category))
 	for _, item in pairs(items) do
-		categories:AddItemToCategory(ctx, item, L:G(category))
+		local success, err = pcall(categories.AddItemToCategory, categories, ctx, item, L:G(category))
+		--@debug@
+		if not success then print(err) end
+		--@end-debug@
 	end
 end

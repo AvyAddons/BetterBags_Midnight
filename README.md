@@ -5,7 +5,23 @@
 
 Currently, this addon supports:
 
-- Nothing! Expect updates around Beta
+- Crafting Items
+  - Herbs
+  - Ore & Metal
+  - Leather & Hide
+  - Cloth
+  - Enchanting
+  - Inscription
+  - Darkmoon Cards
+  - Jewelcrafting
+  - Cooking
+  - Engineering Parts
+  - Missives
+  - Optional Reagents
+  - Elemental
+  - Meta Materials
+  - Other
+- Twilight Ascension (Pre-Patch Event)
 
 This is a plugin only! You can get the base bag addon over at [Cidan/BetterBags](https://github.com/Cidan/BetterBags) or [CurseForge](https://www.curseforge.com/wow/addons/better-bags).
 

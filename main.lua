@@ -20,9 +20,16 @@ local context = BetterBags:GetModule('Context')
 local ctx = context:New('BBMN_Event')
 
 for category, items in pairs(addon.db) do
-	categories:WipeCategory(ctx, L:G(category))
+	local name = L:G(category)
+	local categoryType = addon.types[category]
+	local color = categoryType and addon.colors[categoryType]
+	if color then
+		name = "|cff" .. color .. name .. "|r"
+	end
+
+	categories:WipeCategory(ctx, name)
 	for _, item in pairs(items) do
-		local success, err = pcall(categories.AddItemToCategory, categories, ctx, item, L:G(category))
+		local success, err = pcall(categories.AddItemToCategory, categories, ctx, item, name)
 		--@debug@
 		if not success then print(err) end
 		--@end-debug@

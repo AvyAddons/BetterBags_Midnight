@@ -18,6 +18,7 @@ addon.colors = {
 -----------------------------------------------------------
 addon.types = {
 	["Midnight Twilight Ascension"] = "Event",
+	["Midnight Mount Fragments"] = "Mount",
 }
 
 -- Database
@@ -122,6 +123,19 @@ addon.db["Midnight Cloth"] = {
 	239200, -- Arcanoweave Bolt (R2)
 	239201, -- Sunfire Silk Bolt (R1)
 	239202, -- Sunfire Silk Bolt (R2)
+
+	-- Spellthreads
+	240156, -- Bright Linen Spellthread (R1)
+	240157, -- Bright Linen Spellthread (R2)
+	240094, -- Sunfire Silk Spellthread (R1)
+	240133, -- Sunfire Silk Spellthread (R2)
+	240154, -- Arcanoweave Spellthread (R1)
+	240155, -- Arcanoweave Spellthread (R2)
+
+	-- Bandages & Misc
+	239711, -- Bright Linen Bandage (R1)
+	239713, -- Bright Linen Bandage (R2)
+	249422, -- Sunsilk
 }
 
 -- Enchanting
@@ -133,6 +147,106 @@ addon.db["Midnight Enchanting"] = {
 	243603, -- Radiant Shard (R2)
 	243605, -- Dawn Crystal (R1)
 	243606, -- Dawn Crystal (R2)
+}
+
+-- Enchantments
+-----------------------------------------------------------
+addon.db["Midnight Enchantments"] = {
+	-- Enchant Scrolls
+	243946, -- Enchant Chest - Mark of Nalorakk (R1)
+	243947, -- Enchant Chest - Mark of Nalorakk (R2)
+	243948, -- Enchant Helm - Hex of Leeching (R1)
+	243949, -- Enchant Helm - Hex of Leeching (R2)
+	243950, -- Enchant Helm - Empowered Hex of Leeching (R1)
+	243951, -- Enchant Helm - Empowered Hex of Leeching (R2)
+	243952, -- Enchant Boots - Lynx's Dexterity (R1)
+	243953, -- Enchant Boots - Lynx's Dexterity (R2)
+	243954, -- Enchant Ring - Amani Mastery (R1)
+	243955, -- Enchant Ring - Amani Mastery (R2)
+	243956, -- Enchant Ring - Eyes of the Eagle (R1)
+	243957, -- Enchant Ring - Eyes of the Eagle (R2)
+	243958, -- Enchant Ring - Zul'jin's Mastery (R1)
+	243959, -- Enchant Ring - Zul'jin's Mastery (R2)
+	243960, -- Enchant Shoulders - Flight of the Eagle (R1)
+	243961, -- Enchant Shoulders - Flight of the Eagle (R2)
+	243962, -- Enchant Shoulders - Akil'zon's Swiftness (R1)
+	243963, -- Enchant Shoulders - Akil'zon's Swiftness (R2)
+	243964, -- Enchant Tool - Amani Perception (R1)
+	243965, -- Enchant Tool - Amani Perception (R2)
+	243966, -- Enchant Tool - Amani Resourcefulness (R1)
+	243967, -- Enchant Tool - Amani Resourcefulness (R2)
+	243968, -- Enchant Weapon - Strength of Halazzi (R1)
+	243969, -- Enchant Weapon - Strength of Halazzi (R2)
+	243970, -- Enchant Weapon - Jan'alai's Precision (R1)
+	243971, -- Enchant Weapon - Jan'alai's Precision (R2)
+	243972, -- Enchant Weapon - Berserker's Rage (R1)
+	243973, -- Enchant Weapon - Berserker's Rage (R2)
+	243974, -- Enchant Chest - Mark of the Rootwarden (R1)
+	243975, -- Enchant Chest - Mark of the Rootwarden (R2)
+	243976, -- Enchant Chest - Mark of the Worldsoul (R1)
+	243977, -- Enchant Chest - Mark of the Worldsoul (R2)
+	243978, -- Enchant Helm - Blessing of Speed (R1)
+	243979, -- Enchant Helm - Blessing of Speed (R2)
+	243980, -- Enchant Helm - Empowered Blessing of Speed (R1)
+	243981, -- Enchant Helm - Empowered Blessing of Speed (R2)
+	243982, -- Enchant Boots - Shaladrassil's Roots (R1)
+	243983, -- Enchant Boots - Shaladrassil's Roots (R2)
+	243984, -- Enchant Ring - Nature's Wrath (R1)
+	243985, -- Enchant Ring - Nature's Wrath (R2)
+	243986, -- Enchant Ring - Nature's Fury (R1)
+	243987, -- Enchant Ring - Nature's Fury (R2)
+	243988, -- Enchant Shoulders - Nature's Grace (R1)
+	243989, -- Enchant Shoulders - Nature's Grace (R2)
+	243990, -- Enchant Shoulders - Amirdrassil's Grace (R1)
+	243991, -- Enchant Shoulders - Amirdrassil's Grace (R2)
+	243992, -- Enchant Tool - Haranir Finesse (R1)
+	243993, -- Enchant Tool - Haranir Finesse (R2)
+	243994, -- Enchant Tool - Haranir Multicrafting (R1)
+	243995, -- Enchant Tool - Haranir Multicrafting (R2)
+	243996, -- Enchant Weapon - Worldsoul Cradle (R1)
+	243997, -- Enchant Weapon - Worldsoul Cradle (R2)
+	243998, -- Enchant Weapon - Worldsoul Aegis (R1)
+	243999, -- Enchant Weapon - Worldsoul Aegis (R2)
+	244000, -- Enchant Weapon - Worldsoul Tenacity (R1)
+	244001, -- Enchant Weapon - Worldsoul Tenacity (R2)
+	244002, -- Enchant Chest - Mark of the Magister (R1)
+	244003, -- Enchant Chest - Mark of the Magister (R2)
+	244004, -- Enchant Helm - Rune of Avoidance (R1)
+	244005, -- Enchant Helm - Rune of Avoidance (R2)
+	244006, -- Enchant Helm - Empowered Rune of Avoidance (R1)
+	244007, -- Enchant Helm - Empowered Rune of Avoidance (R2)
+	244008, -- Enchant Boots - Farstrider's Hunt (R1)
+	244009, -- Enchant Boots - Farstrider's Hunt (R2)
+	244010, -- Enchant Ring - Thalassian Haste (R1)
+	244011, -- Enchant Ring - Thalassian Haste (R2)
+	244012, -- Enchant Ring - Thalassian Versatility (R1)
+	244013, -- Enchant Ring - Thalassian Versatility (R2)
+	244014, -- Enchant Ring - Silvermoon's Alacrity (R1)
+	244015, -- Enchant Ring - Silvermoon's Alacrity (R2)
+	244016, -- Enchant Ring - Silvermoon's Tenacity (R1)
+	244017, -- Enchant Ring - Silvermoon's Tenacity (R2)
+	244018, -- Enchant Shoulders - Thalassian Recovery (R1)
+	244019, -- Enchant Shoulders - Thalassian Recovery (R2)
+	244020, -- Enchant Shoulders - Silvermoon's Mending (R1)
+	244021, -- Enchant Shoulders - Silvermoon's Mending (R2)
+	244022, -- Enchant Tool - Sin'dorei Deftness (R1)
+	244023, -- Enchant Tool - Sin'dorei Deftness (R2)
+	244024, -- Enchant Tool - Ren'dorei Ingenuity (R1)
+	244025, -- Enchant Tool - Ren'dorei Ingenuity (R2)
+	244026, -- Enchant Weapon - Flames of the Sin'dorei (R1)
+	244027, -- Enchant Weapon - Flames of the Sin'dorei (R2)
+	244028, -- Enchant Weapon - Acuity of the Ren'dorei (R1)
+	244029, -- Enchant Weapon - Acuity of the Ren'dorei (R2)
+	244030, -- Enchant Weapon - Arcane Mastery (R1)
+	244031, -- Enchant Weapon - Arcane Mastery (R2)
+
+	-- Illusory Adornments
+	244032, -- Illusory Adornment - Blooming Light (R1)
+	244033, -- Illusory Adornment - Blooming Light (R2)
+	244034, -- Illusory Adornment - Nature's Embrace (R1)
+	244035, -- Illusory Adornment - Nature's Embrace (R2)
+	244036, -- Illusory Adornment - Voidtouched (R1)
+	244037, -- Illusory Adornment - Voidtouched (R2)
 }
 
 -- Inscription
@@ -269,6 +383,78 @@ addon.db["Midnight Jewelcrafting"] = {
 	253307, -- Infused Heliotrope
 }
 
+-- Cut Gems
+-----------------------------------------------------------
+addon.db["Midnight Cut Gems"] = {
+	-- Cut Gems
+	240855, -- Quick Peridot (R1)
+	240856, -- Quick Peridot (R2)
+	240857, -- Deadly Peridot (R1)
+	240858, -- Deadly Peridot (R2)
+	240859, -- Masterful Peridot (R1)
+	240860, -- Masterful Peridot (R2)
+	240861, -- Versatile Peridot (R1)
+	240862, -- Versatile Peridot (R2)
+	240863, -- Masterful Amethyst (R1)
+	240864, -- Masterful Amethyst (R2)
+	240865, -- Deadly Amethyst (R1)
+	240866, -- Deadly Amethyst (R2)
+	240867, -- Quick Amethyst (R1)
+	240868, -- Quick Amethyst (R2)
+	240869, -- Versatile Amethyst (R1)
+	240870, -- Versatile Amethyst (R2)
+	240871, -- Deadly Garnet (R1)
+	240872, -- Deadly Garnet (R2)
+	240873, -- Quick Garnet (R1)
+	240874, -- Quick Garnet (R2)
+	240875, -- Masterful Garnet (R1)
+	240876, -- Masterful Garnet (R2)
+	240877, -- Versatile Garnet (R1)
+	240878, -- Versatile Garnet (R2)
+	240879, -- Versatile Lapis (R1)
+	240880, -- Versatile Lapis (R2)
+	240881, -- Deadly Lapis (R1)
+	240882, -- Deadly Lapis (R2)
+	240883, -- Quick Lapis (R1)
+	240884, -- Quick Lapis (R2)
+	240885, -- Masterful Lapis (R1)
+	240886, -- Masterful Lapis (R2)
+
+	-- Flawless Cut Gems
+	240887, -- Flawless Quick Peridot (R1)
+	240888, -- Flawless Quick Peridot (R2)
+	240889, -- Flawless Deadly Peridot (R1)
+	240890, -- Flawless Deadly Peridot (R2)
+	240891, -- Flawless Masterful Peridot (R1)
+	240892, -- Flawless Masterful Peridot (R2)
+	240893, -- Flawless Versatile Peridot (R1)
+	240894, -- Flawless Versatile Peridot (R2)
+	240895, -- Flawless Masterful Amethyst (R1)
+	240896, -- Flawless Masterful Amethyst (R2)
+	240897, -- Flawless Deadly Amethyst (R1)
+	240898, -- Flawless Deadly Amethyst (R2)
+	240899, -- Flawless Quick Amethyst (R1)
+	240900, -- Flawless Quick Amethyst (R2)
+	240901, -- Flawless Versatile Amethyst (R1)
+	240902, -- Flawless Versatile Amethyst (R2)
+	240903, -- Flawless Deadly Garnet (R1)
+	240904, -- Flawless Deadly Garnet (R2)
+	240905, -- Flawless Quick Garnet (R1)
+	240906, -- Flawless Quick Garnet (R2)
+	240907, -- Flawless Masterful Garnet (R1)
+	240908, -- Flawless Masterful Garnet (R2)
+	240909, -- Flawless Versatile Garnet (R1)
+	240910, -- Flawless Versatile Garnet (R2)
+	240911, -- Flawless Versatile Lapis (R1)
+	240912, -- Flawless Versatile Lapis (R2)
+	240913, -- Flawless Deadly Lapis (R1)
+	240914, -- Flawless Deadly Lapis (R2)
+	240915, -- Flawless Quick Lapis (R1)
+	240916, -- Flawless Quick Lapis (R2)
+	240917, -- Flawless Masterful Lapis (R1)
+	240918, -- Flawless Masterful Lapis (R2)
+}
+
 -- Cooking
 -----------------------------------------------------------
 addon.db["Midnight Cooking"] = {
@@ -307,6 +493,250 @@ addon.db["Midnight Cooking"] = {
 	242645, -- Ripened Vegetable Assortment
 	242646, -- Pouch of Spices
 	242647, -- Tavern Fixings
+	242648, -- Black Blood Coagulate
+
+	-- Cooking Salvage
+	275280, -- Gamey Flank
+	275281, -- Folded Wing
+	275282, -- Smooth Loin
+	275283, -- Amphibious Scrap
+	275284, -- Slobbery Tongue
+	275285, -- Malleable Root
+	275286, -- Leafy Appendage
+	275287, -- Cellular Slab
+	275288, -- Photosynthesized Scrap
+	275289, -- Winged Stalk
+}
+
+-- Fishing
+-----------------------------------------------------------
+addon.db["Midnight Fishing"] = {
+	-- Fishing Lines
+	262792, -- Shredded Bloomline
+	262793, -- Stranded Bloomline
+	262794, -- Weak Bloomline
+	262795, -- Angler's Bloomline
+	262796, -- Midnight Angler's Grand Line
+	262797, -- Shredded Glimmerline
+	262798, -- Stranded Glimmerline
+	262799, -- Weak Glimmerline
+	262800, -- Angler's Glimmerline
+}
+
+-- Food & Drink
+-----------------------------------------------------------
+addon.db["Midnight Food & Drink"] = {
+	-- Prepared Food (Cooking)
+	242272, -- Quel'dorei Medley
+	242273, -- Blooming Feast
+	242274, -- Champion's Bento
+	242275, -- Royal Roast
+	242276, -- Braised Blood Hunter
+	242277, -- Crimson Calamari
+	242278, -- Tasty Smoked Tetra
+	242280, -- Buttered Root Crab
+	242281, -- Glitter Skewers
+	242282, -- Null and Void Plate
+	242283, -- Sun-Seared Lumifin
+	242284, -- Void-Kissed Fish Rolls
+	242285, -- Warped Wise Wings
+	242286, -- Fel-Kissed Filet
+	242287, -- Arcano Cutlets
+	242288, -- Twilight Angler's Medley
+	242289, -- Spellfire Filet
+	242290, -- Wise Tails
+	242291, -- Fried Bloomtail
+	242292, -- Eversong Pudding
+	242293, -- Sunwell Delight
+	242294, -- Felberry Figs
+	242295, -- Hearthflame Supper
+	242296, -- Bloodthistle-Wrapped Cutlets
+	242297, -- Mana Lily Tea
+	242298, -- Argentleaf Tea
+	242299, -- Sanguithorn Tea
+	242300, -- Tranquility Bloom Tea
+	242301, -- Azeroot Tea
+	242302, -- Bloom Skewers
+	242303, -- Mana-Infused Stew
+	242304, -- Spiced Biscuits
+	242305, -- Silvermoon Standard
+	242306, -- Forager's Medley
+	242307, -- Quick Sandwich
+	242308, -- Portable Snack
+	242309, -- Farstrider Rations
+
+	-- Hearty Variants
+	242744, -- Hearty Quel'dorei Medley
+	242745, -- Hearty Blooming Feast
+	242746, -- Hearty Champion's Bento
+	242747, -- Hearty Royal Roast
+	242748, -- Hearty Braised Blood Hunter
+	242749, -- Hearty Crimson Calamari
+	242750, -- Hearty Tasty Smoked Tetra
+	242752, -- Hearty Buttered Root Crab
+	242753, -- Hearty Glitter Skewers
+	242754, -- Hearty Null and Void Plate
+	242755, -- Hearty Sun-Seared Lumifin
+	242756, -- Hearty Void-Kissed Fish Rolls
+	242757, -- Hearty Warped Wise Wings
+	242758, -- Hearty Fel-Kissed Filet
+	242759, -- Hearty Arcano Cutlets
+	242760, -- Hearty Twilight Angler's Medley
+	242761, -- Hearty Spellfire Filet
+	242762, -- Hearty Wise Tails
+	242763, -- Hearty Fried Bloomtail
+	242764, -- Hearty Eversong Pudding
+	242765, -- Hearty Sunwell Delight
+	242766, -- Hearty Felberry Figs
+	242767, -- Hearty Hearthflame Supper
+	242768, -- Hearty Bloodthistle-Wrapped Cutlets
+	242769, -- Hearty Bloom Skewers
+	242770, -- Hearty Mana-Infused Stew
+	242771, -- Hearty Spiced Biscuits
+	242772, -- Hearty Silvermoon Standard
+	242773, -- Hearty Forager's Medley
+	242774, -- Hearty Quick Sandwich
+	242775, -- Hearty Portable Snack
+	242776, -- Hearty Farstrider Rations
+	275258, -- Venom-Spiced Cutlets
+	275259, -- Hearty Venom-Spiced Cutlets
+	275260, -- Puffer Plate
+	275261, -- Sweet-And-Sour Skewers
+	275262, -- Hearty Puffer Plate
+	275263, -- Hearty Sweet-And-Sour Skewers
+	275264, -- Amani Cornucopia
+	275265, -- Loa's Gathering
+	275266, -- Feast of Knowledge
+	275267, -- Hearty Amani Cornucopia
+	275268, -- Hearty Loa's Gathering
+	275269, -- Hearty Feast of Knowledge
+
+	-- Vendor & Tavern Fare
+	260254, -- Kale'thas Sunsalad
+	260255, -- Managi Roll
+	260256, -- Luxurious Omelette
+	260257, -- Ghostlands Pepper
+	260258, -- Purified Cordial
+	260259, -- Everspring Water
+	260260, -- Springrunner Sparkling
+	260261, -- Bloom Nectar
+	260262, -- Fairbreeze Feast
+	260263, -- Silvermoon Soiree Spread
+	260264, -- Quel'Danas Rations
+	260266, -- Fizzing Fluid
+	260267, -- Steamed Hexx'alor Lobster
+	260268, -- Pango and Mash
+	260269, -- Jerk Boar Jerky
+	260270, -- Bog Legs
+	260271, -- Root Juice
+	260272, -- Crisp Bluff Bock
+	260273, -- Tea of Mists and Rain
+	260274, -- Denshroom Deep Roast
+	260275, -- Mukleech Curry
+	260276, -- Akil'stew
+	260277, -- Sedge Crawler Gumbo
+	260278, -- Potatoad Salad
+	260279, -- Lightbloomin' Onion
+	260280, -- Sauteed Fungal Tubers
+	260281, -- Stir-Fried Saptor Sirloin
+	260282, -- Refreshing Ahl'ua Water
+	260283, -- Grotto Gulp
+	260284, -- Lashroom Quencher
+	260285, -- Extract of Lightbloom
+	260286, -- Shrooms and Nectar
+	260287, -- World Roots Banquet
+	260288, -- Alndust-Infused Feast
+	260289, -- Ren'dorei Rations
+	260290, -- Quel'Thalas Cheese
+	260291, -- Stargazer Pudding
+	260292, -- Asteroid Soup
+	260293, -- Void Port
+	260294, -- Voidwyrm Absinthe
+	260295, -- Purified Storm Water
+	260296, -- Shadeleaf Tea
+	260297, -- Voidfarer's Respite
+	260298, -- Astral Apple Pie
+	260299, -- Roasted Abyssal Eel
+
+	-- Drinks & Delicacies
+	264981, -- Goldengrove Juice
+	264982, -- Wine Not
+	264983, -- Sunwell Shot
+	264984, -- Darkwell Draft
+	264985, -- Dawnmosa
+	264987, -- Magister's Mead
+	264988, -- Endgame Essentials
+	264989, -- Dragonhawk Flight
+	264990, -- Fairbreeze Franciacorta
+	264991, -- Murder Roe
+	264992, -- Blood Knight Burger
+	264993, -- Delicate Dart Legs
+	264994, -- Pickled Bloom Shoots
+	264995, -- Goldenbough Preserves
+}
+
+-- Potions & Flasks
+-----------------------------------------------------------
+addon.db["Midnight Potions & Flasks"] = {
+	-- Potions, Phials & Flasks
+	241284, -- Voidlight Potion Cauldron (R1)
+	241285, -- Voidlight Potion Cauldron (R2)
+	241286, -- Light's Preservation (R1)
+	241287, -- Light's Preservation (R2)
+	241288, -- Potion of Recklessness (R1)
+	241289, -- Potion of Recklessness (R2)
+	241291, -- Primal Philosopher's Stone
+	241292, -- Draught of Rampant Abandon (R1)
+	241293, -- Draught of Rampant Abandon (R2)
+	241294, -- Potion of Devoured Dreams (R1)
+	241295, -- Potion of Devoured Dreams (R2)
+	241296, -- Potion of Zealotry (R1)
+	241297, -- Potion of Zealotry (R2)
+	241298, -- Amani Extract (R1)
+	241299, -- Amani Extract (R2)
+	241300, -- Lightfused Mana Potion (R1)
+	241301, -- Lightfused Mana Potion (R2)
+	241302, -- Void-Shrouded Tincture (R1)
+	241303, -- Void-Shrouded Tincture (R2)
+	241304, -- Silvermoon Health Potion (R1)
+	241305, -- Silvermoon Health Potion (R2)
+	241306, -- Refreshing Serum (R1)
+	241307, -- Refreshing Serum (R2)
+	241308, -- Light's Potential (R1)
+	241309, -- Light's Potential (R2)
+	241310, -- Haranir Phial of Finesse (R1)
+	241311, -- Haranir Phial of Finesse (R2)
+	241312, -- Haranir Phial of Ingenuity (R1)
+	241313, -- Haranir Phial of Ingenuity (R2)
+	241316, -- Haranir Phial of Perception (R1)
+	241317, -- Haranir Phial of Perception (R2)
+	241318, -- Cauldron of Sin'dorei Flasks (R1)
+	241319, -- Cauldron of Sin'dorei Flasks (R2)
+	241320, -- Flask of Thalassian Resistance (R1)
+	241321, -- Flask of Thalassian Resistance (R2)
+	241322, -- Flask of the Magisters (R1)
+	241323, -- Flask of the Magisters (R2)
+	241324, -- Flask of the Blood Knights (R1)
+	241325, -- Flask of the Blood Knights (R2)
+	241326, -- Flask of the Shattered Sun (R1)
+	241327, -- Flask of the Shattered Sun (R2)
+
+	-- Fleeting (Trial) Variants
+	245897, -- Fleeting Light's Potential (R1)
+	245898, -- Fleeting Light's Potential (R2)
+	245899, -- Bat's Grand Charm
+	245900, -- Fleeting Potion of Zealotry (R1)
+	245901, -- Fleeting Potion of Zealotry (R2)
+	245902, -- Fleeting Potion of Recklessness (R1)
+	245903, -- Fleeting Potion of Recklessness (R2)
+	245904, -- Fleeting Potion of Devoured Dreams (R1)
+	245905, -- Fleeting Potion of Devoured Dreams (R2)
+	245910, -- Fleeting Draught of Rampant Abandon (R1)
+	245911, -- Fleeting Draught of Rampant Abandon (R2)
+	245916, -- Fleeting Lightfused Mana Potion (R1)
+	245917, -- Fleeting Lightfused Mana Potion (R2)
+	245918, -- Fleeting Silvermoon Health Potion (R1)
+	245919, -- Fleeting Silvermoon Health Potion (R2)
 }
 
 -- Engineering Parts
@@ -440,9 +870,90 @@ addon.db["Midnight Elemental"] = {
 -----------------------------------------------------------
 addon.db["Midnight Meta Materials"] = {
 	232875, -- Spark of Radiance
+	274476, -- Spark of Tides
+	275134, -- Otherworldly Spark of War
 	256559, -- Galactic Combatant's Heraldry
 	256607, -- Galactic Aspirant's Heraldry
 	256608, -- Galactic Gladiator's Heraldry
+}
+
+-- Profession Knowledge
+-----------------------------------------------------------
+addon.db["Midnight Profession Knowledge"] = {
+	-- Profession Knowledge
+	246320, -- Flicker of Midnight Alchemy Knowledge
+	246321, -- Glimmer of Midnight Alchemy Knowledge
+	246322, -- Flicker of Midnight Blacksmithing Knowledge
+	246323, -- Glimmer of Midnight Blacksmithing Knowledge
+	246324, -- Flicker of Midnight Enchanting Knowledge
+	246325, -- Glimmer of Midnight Enchanting Knowledge
+	246326, -- Flicker of Midnight Engineering Knowledge
+	246327, -- Glimmer of Midnight Engineering Knowledge
+	246328, -- Flicker of Midnight Inscription Knowledge
+	246329, -- Glimmer of Midnight Inscription Knowledge
+	246330, -- Flicker of Midnight Jewelcrafting Knowledge
+	246331, -- Glimmer of Midnight Jewelcrafting Knowledge
+	246332, -- Flicker of Midnight Leatherworking Knowledge
+	246333, -- Glimmer of Midnight Leatherworking Knowledge
+	246334, -- Flicker of Midnight Tailoring Knowledge
+	246335, -- Glimmer of Midnight Tailoring Knowledge
+
+	-- Thalassian Treatises
+	245755, -- Thalassian Treatise on Alchemy
+	245763, -- Thalassian Treatise on Blacksmithing
+	245759, -- Thalassian Treatise on Enchanting
+	245809, -- Thalassian Treatise on Engineering
+	245761, -- Thalassian Treatise on Herbalism
+	245757, -- Thalassian Treatise on Inscription
+	245760, -- Thalassian Treatise on Jewelcrafting
+	245758, -- Thalassian Treatise on Leatherworking
+	245762, -- Thalassian Treatise on Mining
+	245828, -- Thalassian Treatise on Skinning
+	245756, -- Thalassian Treatise on Tailoring
+}
+
+-- Weapon Enhancements
+-----------------------------------------------------------
+addon.db["Midnight Weapon Enhancements"] = {
+	-- Weapon Oils
+	243733, -- Thalassian Phoenix Oil (R1)
+	243734, -- Thalassian Phoenix Oil (R2)
+	243735, -- Oil of Dawn (R1)
+	243736, -- Oil of Dawn (R2)
+	243737, -- Smuggler's Enchanted Edge (R1)
+	243738, -- Smuggler's Enchanted Edge (R2)
+
+	-- Weapon Stones
+	237370, -- Refulgent Whetstone (R1)
+	237371, -- Refulgent Whetstone (R2)
+	237367, -- Refulgent Weightstone (R1)
+	237369, -- Refulgent Weightstone (R2)
+	237372, -- Refulgent Razorstone (R1)
+	237373, -- Refulgent Razorstone (R2)
+}
+
+-- Augment Runes
+-----------------------------------------------------------
+addon.db["Midnight Augment Runes"] = {
+	259085, -- Void-Touched Augment Rune
+	274797, -- Tidesworn Augment Rune
+	246492, -- Soulgorged Augment Rune
+}
+
+-- Mount Fragments
+-- Collection currencies; each stacks to exactly the number required to unlock its mount.
+-----------------------------------------------------------
+addon.db["Midnight Mount Fragments"] = {
+	260531, -- Crystalized Resin Fragment (150 -> Ruddy Sporeglider, via Peculiar Cauldron)
+	255826, -- Mysterious Skyshards (500 -> Echo of Aln'sharan)
+	259361, -- Vile Essence (1000 -> Hexed Vilefeather Eagle, via Abandoned Ritual Skull)
+}
+
+-- Warband Camp
+-----------------------------------------------------------
+addon.db["Midnight Warband Camp"] = {
+	279575, -- Silvermoon Citizen's Emblem
+	279576, -- Void Vestige
 }
 
 -- Other
@@ -454,6 +965,7 @@ addon.db["Midnight Other"] = {
 	247811, -- Oil of Heartwood
 	251285, -- Petrified Root
 	256166, -- The Professor's Pentagold Polyhedron
+	267051, -- Dark Particle
 }
 
 -- Midnight Twilight Ascension | Pre-Patch Event

@@ -19,6 +19,7 @@ addon.colors = {
 addon.types = {
 	["Midnight Twilight Ascension"] = "Event",
 	["Midnight Mount Fragments"] = "Mount",
+	["Midnight Contracts"] = "Contract",
 }
 
 -- Database
@@ -1021,6 +1022,21 @@ addon.db["Midnight Mount Fragments"] = {
 addon.db["Midnight Warband Camp"] = {
 	279575, -- Silvermoon Citizen's Emblem
 	279576, -- Void Vestige
+}
+
+-- Contracts
+-----------------------------------------------------------
+addon.db["Midnight Contracts"] = {
+	245793, -- Contract: The Singularity (R1)
+	245794, -- Contract: The Singularity (R2)
+	245795, -- Contract: The Hara'ti (R1)
+	245796, -- Contract: The Hara'ti (R2)
+	245797, -- Contract: The Amani Tribe (R1)
+	245798, -- Contract: The Amani Tribe (R2)
+	245799, -- Contract: The Silvermoon Court (R1)
+	245800, -- Contract: The Silvermoon Court (R2)
+	277968, -- Contract: Zul'jarra's Forces (R1)
+	277969, -- Contract: Zul'jarra's Forces (R2)
 }
 
 -- Other

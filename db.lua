@@ -1039,6 +1039,78 @@ addon.db["Midnight Contracts"] = {
 	277969, -- Contract: Zul'jarra's Forces (R2)
 }
 
+-- Delve & Expedition Salvage
+-----------------------------------------------------------
+addon.db["Midnight Delve Salvage"] = {
+	265040, -- Fractured Void Focus
+	265041, -- Singed Ritual Parchment
+	265042, -- Tarnished Shadow Torque
+	265043, -- Dented Voidblade Pommel
+	265044, -- Frayed Twilight Sash
+	265045, -- Sealed Blood Vial
+	265046, -- Warped Summoning Sigil
+	265047, -- Cracked Soul Phylactery
+	265048, -- Scale Fragment
+	265049, -- Drifting Conch Whistle
+	265050, -- Coral Shard
+	265051, -- Carved Root Totem
+	265052, -- Crumbly Stone Shard
+	265053, -- Gnarled Bark Shard
+	265054, -- Cracked Tribal Mask
+	265055, -- Torn Dimensional Wrap
+	265056, -- Flickering Energy Coil
+	265057, -- Hollow Binding Strand
+	265058, -- Distorted Echo Fragment
+	265059, -- Collapsed Void Core
+	265061, -- Whispering Rift Residue
+	265062, -- Nullflare Residue
+	272109, -- Crumpled Propaganda Page
+	272110, -- Singed Propaganda Leaflet
+	272111, -- Decaying Necromancer Cloak
+	272112, -- Golden Rune-Etched Circlet
+	272113, -- Scourge Shard Fragment
+	272114, -- Discarded Excavation Tool
+	272115, -- Smashed Shield Emitter
+	272116, -- Water-Logged Transaction Scroll
+	272117, -- Shattered Energy Weapon
+	272118, -- Inert Arcane Explosive
+	272119, -- Residue-Covered Tool
+	272120, -- Mysterious Vial
+	276342, -- Fragmented Soul Lattice
+	276343, -- Console Encryption Key
+	276344, -- Overgrown Spore Extractor
+	276345, -- Malfunctioning Holoprint
+	276346, -- Fel-Singed Salvage
+	276347, -- Cracked Legion Communicator
+	276348, -- Marsh Wrangler's Vinewhip
+	276349, -- Bulbous Leyshroom
+	276350, -- Shimmering Algae
+	276351, -- Muckfaded Crystalline Figure
+	276352, -- Scuffed Prayer Bangle
+	276353, -- Frozen Sliver of Darkness
+	276354, -- Frozen Fel Core
+	276355, -- Shattered Frostforged Hilt
+	276356, -- Frost-Shredded Demon Cloak
+	276357, -- Razor-Ice Flake
+	276358, -- Shattered Shadowgraft
+	276359, -- Twisted Domanaar Armament
+	276360, -- Etched Ice Chip
+	276361, -- Frost-Calloused Remains
+	276362, -- Lost Glacier Climbing Hooks
+	279142, -- Intact Spine Segment
+	279143, -- Elongated Viscera
+	279145, -- Vial of Venom
+	279146, -- Lopped Rattle
+	279147, -- Unrecognizable Bone
+	279148, -- Strip of Snake Hide
+	279152, -- Intact Snake Head
+	279153, -- Large Trophy
+	279154, -- Large Leaf
+	279157, -- Frayed Nomad's Cord
+	279160, -- Mud-Caked Footwraps
+	279166, -- Pumice Hand Chalk
+}
+
 -- Other
 -----------------------------------------------------------
 addon.db["Midnight Other"] = {

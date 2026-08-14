@@ -1111,6 +1111,110 @@ addon.db["Midnight Delve Salvage"] = {
 	279166, -- Pumice Hand Chalk
 }
 
+-- Creature Drops
+-----------------------------------------------------------
+addon.db["Midnight Creature Drops"] = {
+	238476, -- Irritating Spores
+	238477, -- Rotten Meat
+	238478, -- Shimmering Seaweed
+	238479, -- Torn Caster's Net
+	238480, -- Opened Lockbox
+	238481, -- Glittering Garbage
+	238482, -- A Whole Lot of Nothing
+	238483, -- Bottom Grass
+	238484, -- Damp Washcloth
+	238485, -- Grotesque Globule
+	238486, -- Empty Can
+	238487, -- Kickin' Can
+	238488, -- Definitely a Rock
+	238489, -- Definitely Not a Rock
+	238490, -- Ambiguous Rock
+	238491, -- Whispering Rock
+	238492, -- Silent Rock
+	238493, -- Screaming Rock
+	238494, -- Another's Treasure
+	238495, -- One Angler's Trash
+	238496, -- Top Grass
+	238500, -- Maella's Report
+	238502, -- Gleaming Seedpod
+	260603, -- Frail and Flexible Wing
+	260604, -- Insect Shedding
+	260605, -- Shattered Spear Tip
+	260606, -- Light and Shaggy Fur
+	260608, -- Bloated Animal Remains
+	260611, -- Large Bestial Scale
+	260613, -- Lightbloom Flower
+	260614, -- Unrecognizable Organ
+	260615, -- Void Dust Residue
+	260616, -- Soft Marine Fungi
+	260617, -- Large Broken Teeth
+	260618, -- Light-Infused Leaves
+	260619, -- Colorful Leaves
+	260620, -- Stone Droppings
+	260621, -- Magic-Infused Bark
+	260635, -- Sanguine Harrower
+	260636, -- Algae Covered Stone
+	260637, -- Rotting Insect Eggs
+	260638, -- Fine Void Residue
+	260639, -- Fractured Bone
+	260640, -- Crooked Bird Talons
+	260641, -- Arid Tendrils
+	260642, -- Fossilized Wildlife
+	260643, -- Pile of Feathers
+	260644, -- Lightbloom Bark
+	260645, -- Water Filled Organ
+	260646, -- Glowing Gland
+	260647, -- Digested Human Hand
+	260648, -- Tattered Clothes
+	260649, -- Vibrant Vortex
+	260650, -- Elemental Debris
+	260651, -- Lustrous Wildlife Pelt
+	260652, -- Broken Wildlife Claw
+	260653, -- Large Lightbloom Fungi
+	260654, -- Abrasive Sand
+	260655, -- Decaying Humanoid Flesh
+	260656, -- Perforated Wing
+	260657, -- Holey Organ
+	260658, -- Crystal Rock Shard
+	260659, -- Stellar Vortex Residue
+	260660, -- Putrid Mushroom Spores
+	260661, -- Glowing Shrub
+	260662, -- Polished Purple Pebble
+	260663, -- Lightbloom Residue
+	260664, -- Bioluminescent Flower Petals
+	260665, -- Sizable Tusk
+	260666, -- Earthy Mushroom
+	260667, -- Tainted Organs
+	260668, -- Cloudy Purple Gem
+	260669, -- Colorless Pebbles
+	260670, -- Bloody Broken Beak
+	260671, -- Oversized Gland
+	260672, -- Fetid Eye
+	260673, -- Partially Digested Bracers
+	260674, -- Fine Arcane Dust
+	260675, -- Luminous Seeds
+	260676, -- Unremarkable Crystal
+	260677, -- Void Flakes
+	260678, -- Sharp Obsidian Chunk
+	260679, -- Fleshless Bone
+	260680, -- Nesting Materials
+	260681, -- Lightbloom-Infused Spores
+	260682, -- Rusty Tusk Ring
+	260683, -- Fine Magenta Sand
+	260684, -- Sharp Scales
+	260685, -- Large Brittle Bone
+	260686, -- Vibrant Wings
+	260687, -- Decaying Leather
+	260688, -- Insect Exoskeleton
+	260689, -- Fine Bioluminescent Powder
+	260690, -- Gloomy Root
+	260691, -- Void-Tainted Pelt
+	260692, -- Chunk of Mystery Meat
+	260693, -- Mossy Lump of Dirt
+	260694, -- Foul Kelp
+	260695, -- Rancid Aquatic Remains
+}
+
 -- Other
 -----------------------------------------------------------
 addon.db["Midnight Other"] = {

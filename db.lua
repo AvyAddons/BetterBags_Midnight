@@ -479,6 +479,27 @@ addon.db["Midnight Cooking"] = {
 	238383, -- Eversong Trout
 	238384, -- Sunwell Fish
 
+	-- Coiled Isle Fish
+	274076, -- Venom-Cursed Killifish
+	274587, -- Spotted Killifish
+	274588, -- Toxic Tlhapi
+	274589, -- Ula'tek Snakehead
+	274590, -- Sulfurous Sludgefish
+	274591, -- Coiled Stargorger
+	274592, -- Dirty Darter
+	274593, -- Blightswarmer
+	274594, -- Polluted Puffer
+	274595, -- Pristine Polygon
+	274596, -- Beached Asteroid
+	274597, -- Bulbous Benthos
+	278848, -- Pustulent Blightswarmer
+	279091, -- Oozing Goby
+	279093, -- Giggling Skull
+	279094, -- Grotesque Sturgeon
+	279100, -- Many-Eyed Flounder
+	279105, -- Twin-Headed Snipefish
+	279106, -- Loathsome Anglerfish
+
 	-- Meat & Provisions
 	238367, -- Root Crab
 	242639, -- Practically Pork
@@ -521,6 +542,18 @@ addon.db["Midnight Fishing"] = {
 	262798, -- Stranded Glimmerline
 	262799, -- Weak Glimmerline
 	262800, -- Angler's Glimmerline
+
+	-- Lures
+	238652, -- Majestic Eversong Lure
+	238653, -- Majestic Zul'Aman Lure
+	238654, -- Majestic Harandar Lure
+	238655, -- Majestic Voidstorm Lure
+	238656, -- Grand Beast Lure
+	241145, -- Lucky Loa Lure
+	241147, -- Blood Hunter Lure
+	241149, -- Ominous Octopus Lure
+	241151, -- Coiled Stargorger Lure
+	277821, -- Ula'tek Snakehead Lure
 }
 
 -- Food & Drink
@@ -737,6 +770,19 @@ addon.db["Midnight Potions & Flasks"] = {
 	245917, -- Fleeting Lightfused Mana Potion (R2)
 	245918, -- Fleeting Silvermoon Health Potion (R1)
 	245919, -- Fleeting Silvermoon Health Potion (R2)
+
+	-- Fleeting Flasks & Elixirs
+	245926, -- Fleeting Flask of Thalassian Resistance (R1)
+	245927, -- Fleeting Flask of Thalassian Resistance (R2)
+	245928, -- Fleeting Flask of the Shattered Sun (R1)
+	245929, -- Fleeting Flask of the Shattered Sun (R2)
+	245930, -- Fleeting Flask of the Blood Knights (R1)
+	245931, -- Fleeting Flask of the Blood Knights (R2)
+	245932, -- Fleeting Flask of the Magisters (R1)
+	245933, -- Fleeting Flask of the Magisters (R2)
+	274763, -- Fleeting Liquid Luster (R1)
+	274764, -- Fleeting Liquid Luster (R2)
+	274765, -- Fleeting Alluring Nostrum
 }
 
 -- Engineering Parts
@@ -910,6 +956,19 @@ addon.db["Midnight Profession Knowledge"] = {
 	245762, -- Thalassian Treatise on Mining
 	245828, -- Thalassian Treatise on Skinning
 	245756, -- Thalassian Treatise on Tailoring
+
+	-- Profession Notes & Journals
+	263454, -- Thalassian Alchemist's Notebook
+	263455, -- Thalassian Blacksmith's Journal
+	263456, -- Thalassian Engineer's Notepad
+	263457, -- Thalassian Scribe's Journal
+	263458, -- Thalassian Jewelcrafter's Notebook
+	263459, -- Thalassian Leatherworker's Journal
+	263460, -- Thalassian Tailor's Notebook
+	263461, -- Thalassian Skinner's Notes
+	263462, -- Thalassian Herbalist's Notes
+	263463, -- Thalassian Miner's Notes
+	263464, -- Thalassian Enchanter's Folio
 }
 
 -- Weapon Enhancements
@@ -930,6 +989,14 @@ addon.db["Midnight Weapon Enhancements"] = {
 	237369, -- Refulgent Weightstone (R2)
 	237372, -- Refulgent Razorstone (R1)
 	237373, -- Refulgent Razorstone (R2)
+
+	-- Scopes
+	257745, -- Farstrider's Hawkeye (R1)
+	257746, -- Farstrider's Hawkeye (R2)
+	257747, -- Smuggler's Lynxeye (R1)
+	257748, -- Smuggler's Lynxeye (R2)
+	257749, -- Laced Zoomshots (R1)
+	257750, -- Laced Zoomshots (R2)
 }
 
 -- Augment Runes

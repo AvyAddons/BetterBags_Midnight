@@ -1,4 +1,4 @@
-## Interface: 120000, 120005
+## Interface: 120100
 
 ## Title: BetterBags - Midnight
 ## Notes: Filter for common Midnight items in BetterBags.

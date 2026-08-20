@@ -1004,7 +1004,6 @@ addon.db["Midnight Weapon Enhancements"] = {
 -----------------------------------------------------------
 addon.db["Midnight Augment Runes"] = {
 	259085, -- Void-Touched Augment Rune
-	274797, -- Tidesworn Augment Rune
 	246492, -- Soulgorged Augment Rune
 }
 

@@ -17,6 +17,13 @@ addon.colors = {
 -- Category type assignments (unassigned categories use default color)
 -----------------------------------------------------------
 addon.types = {
+	["Eversong Woods"] = "Zone",
+	["Zul'Aman"] = "Zone",
+	["Harandar"] = "Zone",
+	["Voidstorm"] = "Zone",
+	["The Coiled Isle"] = "Zone",
+	["Val & Naigtal"] = "Zone",
+	["Vaults of Atal'Utek"] = "Zone",
 	["Midnight Twilight Ascension"] = "Event",
 	["Midnight Mount Fragments"] = "Mount",
 	["Midnight Contracts"] = "Contract",
@@ -1277,6 +1284,25 @@ addon.db["Midnight Delve Salvage"] = {
 	279166, -- Pumice Hand Chalk
 }
 
+-- Vaults of Atal'Utek
+-----------------------------------------------------------
+addon.db["Vaults of Atal'Utek"] = {
+	273000, -- Corrosive Soul
+	274437, -- Venom Ward
+	275048, -- Decrepit Key
+	275911, -- Venom-Covered Chest
+	279287, -- Corroded Pouch
+	279288, -- Corroded Satchel
+	279345, -- Venom-Drenched Sack
+	279382, -- Venom-Cursed Fragment
+	279550, -- Potion of Venomous Return
+	280003, -- Excising Knife
+	280004, -- Corroded Key
+	280005, -- Dispelling Charm
+	280006, -- Spirit Loupe
+	281223, -- Satchel of Corrosive Coins
+}
+
 -- Creature Drops
 -----------------------------------------------------------
 addon.db["Midnight Creature Drops"] = {
@@ -1412,4 +1438,166 @@ addon.db["Midnight Twilight Ascension"] = {
 	248215, -- Weathered Twilight Cultist's Rifle
 	248216, -- Weathered Twilight Cultist's Hammer
 	248217, -- Weathered Twilight Cultist's Greatmace
+}
+
+-- Eversong Woods
+-----------------------------------------------------------
+addon.db["Eversong Woods"] = {
+	242241, -- Latent Arcana
+	249367, -- Chiming Void Curio
+	249689, -- Ghostflower Tea with Sunfruit
+	253802, -- Deed of Patronage
+	255845, -- Silvermoon Parade
+	258768, -- Battered Safebox Key
+	258769, -- Worn Safebox Key
+	258770, -- Tarnished Safebox Key
+	259240, -- Sin'dorei Wine
+	260232, -- Thalassian Skeleton Key
+	263433, -- Overflowing Silvermoon Trove
+	265674, -- Tasty Meat
+	265833, -- Page 1 of a Book of Sonnets
+	265834, -- Page 2 of a Book of Sonnets
+	265835, -- Page 3 of a Book of Sonnets
+	266985, -- Hearty Silvermoon Parade
+	267650, -- Blood Knight Training Manual
+	269862, -- Thalassian Token of Merit
+	270909, -- Slumbering Coil Curio
+	272392, -- Broken Lynx Leash
+	278329, -- Thalassian Recipe in a Bottle
+}
+
+-- Zul'Aman
+-----------------------------------------------------------
+addon.db["Zul'Aman"] = {
+	241148, -- Amani Angler's Ward
+	250974, -- Akil'zon's Updraft
+	251970, -- Overflowing Amani Trove
+	252607, -- Abundant Beacon
+	253625, -- Nalorakk's Breath Tank
+	254554, -- Amani Hex Stick
+	255008, -- Weathered Eagle Egg
+	255157, -- Abyss Angler's Fish Log
+	255428, -- Tolbani's Medicine Satchel
+	259219, -- Bear Tooth
+	259220, -- Dragonhawk Feather
+	259221, -- Eagle Talon
+	259223, -- Lynx Claw
+	265543, -- Tempered Amani Spearhead
+	265554, -- Reinforced Amani Haft
+	265560, -- Toughened Amani Leather Wrap
+	265602, -- Amani Privateer's Key
+	267278, -- Angler Pearls
+	267376, -- Jan'alai's Cinder
+	268113, -- Jan'alai's Breath
+	268717, -- Pango Plating
+	270871, -- Jan'alai's Breath
+	274713, -- Cache of Amani Treasures
+	274714, -- Cache of Amani Treasures
+	278022, -- Bulging Amani Field Pouch
+	279052, -- Ancient Amani Mask
+}
+
+-- Harandar
+-----------------------------------------------------------
+addon.db["Harandar"] = {
+	255846, -- Harandar Celebration
+	258963, -- Shroom Jumper's Parachute
+	259084, -- Gift of the Cycle
+	260250, -- Mysterious Purple Fluid
+	260251, -- Mysterious Red Fluid
+	260439, -- Silence and Shadow Champion's Badge
+	264895, -- Trials of the Florafaun Hunter
+	265818, -- Ruia's Musings, Part 1
+	265819, -- Ruia's Musings, Part 2
+	265820, -- Ruia's Musings, Part 3
+	265824, -- The Rootwarden's Notes
+	266996, -- Hearty Harandar Celebration
+	270431, -- Haranir Footlocker
+}
+
+-- Voidstorm
+-----------------------------------------------------------
+addon.db["Voidstorm"] = {
+	243146, -- Ren'dorei Struggle
+	243343, -- Angler's Anomaly
+	246951, -- Stormarion Core
+	250319, -- Researcher's Shadowgraft
+	251519, -- Key of Fused Darkness
+	258146, -- Rotten Carrion
+	259086, -- Void-Touched Satchel of Cooperation
+	260979, -- Victorious Stormarion Cache
+	264695, -- Interdimensional Parcel Signal
+	264972, -- Voidstorm Victuals
+	267139, -- Hungry Black Hole
+	268552, -- Ascendant Voidcore
+	270244, -- Field Pouch
+	270932, -- Wriggling Field Pouch
+	270933, -- Bulging Field Pouch
+	270934, -- Recruit's Field Pouch
+	271221, -- Wriggling Recruit's Field Pouch
+	271222, -- Bulging Recruit's Field Pouch
+	272125, -- Recruit's Cache
+}
+
+-- The Coiled Isle
+-----------------------------------------------------------
+addon.db["The Coiled Isle"] = {
+	269720, -- Corrosive Hekte
+	271424, -- Diver's Key Fragment
+	273062, -- Coiled Snake-Eye
+	273063, -- Coiled Snake-Eye
+	274777, -- Neutralized Venom Clot
+	275825, -- Ula'tek's Sssacrificial Rain
+	276117, -- Clouded Blood-Pearl
+	276124, -- Ancient Knucklebone
+	276126, -- Serpent's Feather
+	276925, -- Idol of Ula'tek
+	278084, -- Handful of Esoteric Ingredients
+	278391, -- Eerie Bauble
+	279054, -- Idol of Blue Water and Blue Sky
+	280182, -- Coiled Curry
+	280183, -- Harrier Hotcakes
+	280419, -- Cursed Badge of the Soulcoilers
+	282183, -- Fabled Coiled Isle Veteran's Cache
+}
+
+-- Val & Naigtal
+-----------------------------------------------------------
+addon.db["Val & Naigtal"] = {
+	263928, -- Cache of Void-Touched Armaments
+	263929, -- Cache of Void-Touched Armaments
+	268111, -- Arkonite Beacon
+	268112, -- Argunite Beacon
+	268996, -- Field Accolade Pouch
+	274772, -- Ethereal Bandage
+	274774, -- Frost-Injected Vapor
+	274775, -- Void Hungerer's Vapor
+	274780, -- Fungal Spore Vapor
+	274782, -- Tether-Severing Vapor
+	274793, -- Mana Barrier Projector
+	274794, -- Shockwave Amplifier
+	275690, -- Riftstalker's Cache
+	275691, -- Riftstalker's Overflowing Cache
+	276365, -- Highland Redcap
+	276366, -- Dusty Redcap
+	276367, -- Marshy Redcap
+	276368, -- Partially-Digested Redcap
+	276369, -- Airy Redcap
+	276375, -- Technomancer's Scrying Matrix
+	276387, -- Riftstalker's Favor
+	276388, -- Riftstalker's Overflowing Favor
+	278004, -- Warbound Cache of Void-Touched Armaments: Boots
+	278005, -- Warbound Cache of Void-Touched Armaments: Legs
+	278006, -- Warbound Cache of Void-Touched Armaments: Belts
+	278007, -- Warbound Cache of Void-Touched Armaments: Gloves
+	278008, -- Warbound Cache of Void-Touched Armaments: Bracers
+	278009, -- Warbound Cache of Void-Touched Armaments: Chest
+	278010, -- Warbound Cache of Void-Touched Armaments: Cloak
+	278011, -- Warbound Cache of Void-Touched Armaments: Shoulder
+	278012, -- Warbound Cache of Void-Touched Armaments: Head
+	278013, -- Warbound Cache of Void-Touched Armaments: Weapons
+	278014, -- Warbound Cache of Void-Touched Armaments: Necklaces
+	278015, -- Warbound Cache of Void-Touched Armaments: Rings
+	278026, -- Bulging Ethereal Pack
+	278027, -- Bulging Winter Pack
 }

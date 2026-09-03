@@ -734,10 +734,14 @@ addon.db["Midnight Potions & Flasks"] = {
 	241303, -- Void-Shrouded Tincture (R2)
 	241304, -- Silvermoon Health Potion (R1)
 	241305, -- Silvermoon Health Potion (R2)
+    271883, -- Concentrated Silvermoon Health Potion (R1)
+	271884, -- Concentrated Silvermoon Health Potion (R2)
 	241306, -- Refreshing Serum (R1)
 	241307, -- Refreshing Serum (R2)
 	241308, -- Light's Potential (R1)
 	241309, -- Light's Potential (R2)
+	271886, -- Liquid Luster (R1)
+	271887, -- Liquid Luster (R2)
 	241310, -- Haranir Phial of Finesse (R1)
 	241311, -- Haranir Phial of Finesse (R2)
 	241312, -- Haranir Phial of Ingenuity (R1)
@@ -970,6 +974,169 @@ addon.db["Midnight Profession Knowledge"] = {
 	263462, -- Thalassian Herbalist's Notes
 	263463, -- Thalassian Miner's Notes
 	263464, -- Thalassian Enchanter's Folio
+
+	-- Knowledge Drops: Alchemy
+	238532, -- Vial of Eversong Oddities
+	238533, -- Vial of Voidstorm Oddities
+	238534, -- Vial of Harandar Oddities
+	238535, -- Vial of Zul'Aman Oddities
+	238536, -- Freshly Plucked Peacebloom
+	238537, -- Measured Ladle
+	238538, -- Pristine Potion
+	238539, -- Failed Experiment
+	259188, -- Lightbloomed Spore Sample
+	259189, -- Aged Cruor
+	262645, -- Beyond the Event Horizon: Alchemy
+	274500, -- Demystifyin': Alchemy
+
+	-- Knowledge Drops: Blacksmithing
+	238540, -- Deconstructed Forge Techniques
+	238541, -- Silvermoon Smithing Kit
+	238542, -- Carefully Racked Spear
+	238543, -- Metalworking Cheat Sheet
+	238544, -- Voidstorm Defense Spear
+	238545, -- Rutaani Floratender's Sword
+	238546, -- Sin'dorei Master's Forgemace
+	238547, -- Silvermoon Blacksmith's Hammer
+	259190, -- Thalassian Whetstone
+	259191, -- Infused Quenching Oil
+	262644, -- Beyond the Event Horizon: Blacksmithing
+	274515, -- Demystifyin': Blacksmithing
+
+	-- Knowledge Drops: Enchanting
+	238548, -- Enchanted Amani Mask
+	238549, -- Enchanted Sunfire Silk
+	238550, -- Pure Void Crystal
+	238551, -- Everblazing Sunmote
+	238552, -- Entropic Shard
+	238553, -- Primal Essence Orb
+	238554, -- Loa-Blessed Dust
+	238555, -- Sin'dorei Enchanting Rod
+	250445, -- Echo of Abundance: Enchanting
+	257600, -- Skill Issue: Enchanting
+	259192, -- Voidstorm Ashes
+	259193, -- Lost Thalassian Vellum
+	267653, -- Glimmering Powder
+	267654, -- Swirling Arcane Essence
+	267655, -- Brimming Mana Shard
+	274511, -- Demystifyin': Enchanting
+
+	-- Knowledge Drops: Engineering
+	238556, -- One Engineer's Junk
+	238557, -- Miniaturized Transport Skiff
+	238558, -- Manual of Mistakes and Mishaps
+	238559, -- Expeditious Pylon
+	238560, -- Ethereal Stormwrench
+	238561, -- Offline Helper Bot
+	238562, -- What To Do When Nothing Works
+	238563, -- Handy Wrench
+	259194, -- Dance Gear
+	259195, -- Dawn Capacitor
+	262646, -- Beyond the Event Horizon: Engineering
+	274516, -- Demystifyin': Engineering
+
+	-- Knowledge Drops: Herbalism
+	238465, -- Thalassian Phoenix Plume
+	238466, -- Thalassian Phoenix Tail
+	238467, -- Thalassian Phoenix Ember
+	238468, -- Bloomed Bud
+	238469, -- Sweeping Harvester's Scythe
+	238470, -- Simple Leaf Pruners
+	238471, -- Lightbloom Root
+	238472, -- A Spade
+	238473, -- Harvester's Sickle
+	238474, -- Peculiar Lotus
+	238475, -- Planting Shovel
+	250443, -- Echo of Abundance: Herbalism
+	258410, -- Traditions of the Haranir: Herbalism
+	274513, -- Demystifyin': Herbalism
+
+	-- Knowledge Drops: Inscription
+	238572, -- Void-Touched Quill
+	238573, -- Leather-Bound Techniques
+	238574, -- Spare Ink
+	238575, -- Intrepid Explorer's Marker
+	238576, -- Leftover Sanguithorn Pigment
+	238577, -- Half-Baked Techniques
+	238578, -- Songwriter's Pen
+	238579, -- Songwriter's Quill
+	258411, -- Traditions of the Haranir: Inscription
+	259196, -- Brilliant Phoenix Ink
+	259197, -- Loa-Blessed Rune
+	274514, -- Demystifyin': Inscription
+
+	-- Knowledge Drops: Jewelcrafting
+	238580, -- Sin'dorei Masterwork Chisel
+	238581, -- Speculative Voidstorm Crystal
+	238582, -- Dual-Function Magnifiers
+	238583, -- Poorly Rounded Vial
+	238584, -- Shattered Glass
+	238585, -- Vintage Soul Gem
+	238586, -- Ethereal Gem Pliers
+	238587, -- Sin'dorei Gem Faceters
+	257599, -- Skill Issue: Jewelcrafting
+	259198, -- Void-Touched Eversong Diamond Fragments
+	259199, -- Harandar Stone Sample
+	274510, -- Demystifyin': Jewelcrafting
+
+	-- Knowledge Drops: Leatherworking
+	238588, -- Amani Leatherworker's Tool
+	238589, -- Ethereal Leatherworking Knife
+	238590, -- Prestigiously Racked Hide
+	238591, -- Bundle of Tanner's Trinkets
+	238592, -- Patterns: Beyond the Void
+	238593, -- Haranir Leatherworking Mallet
+	238594, -- Haranir Leatherworking Knife
+	238595, -- Artisan's Considered Order
+	250922, -- Whisper of the Loa: Leatherworking
+	259200, -- Amani Tanning Oil
+	259201, -- Thalassian Mana Oil
+	274507, -- Demystifyin': Leatherworking
+
+	-- Knowledge Drops: Mining
+	237496, -- Igneous Rock Specimen
+	237506, -- Septarian Nodule
+	237507, -- Cloudy Quartz
+	238596, -- Miner's Guide to Voidstorm
+	238597, -- Spelunker's Lucky Charm
+	238598, -- Lost Voidstorm Satchel
+	238599, -- Solid Ore Punchers
+	238600, -- Glimmering Void Pearl
+	238601, -- Amani Expert's Chisel
+	238602, -- Star Metal Deposit
+	238603, -- Spare Expedition Torch
+	250444, -- Echo of Abundance: Mining
+	250924, -- Whisper of the Loa: Mining
+	274509, -- Demystifyin': Mining
+
+	-- Knowledge Drops: Skinning
+	238625, -- Fine Void-Tempered Hide
+	238626, -- Mana-Infused Bone
+	238627, -- Manafused Sample
+	238628, -- Lightbloom-Afflicted Hide
+	238629, -- Cadre Skinning Knife
+	238630, -- Primal Hide
+	238631, -- Voidstorm Leather Sample
+	238632, -- Amani Tanning Oil
+	238633, -- Sin'dorei Tanning Oil
+	238634, -- Amani Skinning Knife
+	238635, -- Thalassian Skinning Knife
+	250360, -- Echo of Abundance: Skinning
+	250923, -- Whisper of the Loa: Skinning
+
+	-- Knowledge Drops: Tailoring
+	238612, -- A Child's Stuffy
+	238613, -- A Really Nice Curtain
+	238614, -- Sin'dorei Outfitter's Ruler
+	238615, -- Wooden Weaving Sword
+	238616, -- Book of Sin'dorei Stitches
+	238617, -- Satin Throw Pillow
+	238618, -- Particularly Enchanting Tablecloth
+	238619, -- Artisan's Cover Comb
+	257601, -- Skill Issue: Tailoring
+	259202, -- Embroidered Memento
+	259203, -- Finely Woven Lynx Collar
+	274512, -- Demystifyin': Tailoring
 }
 
 -- Weapon Enhancements

@@ -13,5 +13,6 @@ ignore:
     - CODE_OF_CONDUCT.md
     - CLAUDE.md
     - .editorconfig
+    - mise.toml
     - .github
     - .claude

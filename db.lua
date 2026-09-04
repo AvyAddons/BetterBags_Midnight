@@ -17,6 +17,8 @@ addon.colors = {
 -- Category type assignments (unassigned categories use default color)
 -----------------------------------------------------------
 addon.types = {
+	["Delves"] = "Zone",
+	["Prey"] = "Zone",
 	["Eversong Woods"] = "Zone",
 	["Zul'Aman"] = "Zone",
 	["Harandar"] = "Zone",
@@ -1284,6 +1286,54 @@ addon.db["Midnight Delve Salvage"] = {
 	279166, -- Pumice Hand Chalk
 }
 
+-- Delves
+-----------------------------------------------------------
+addon.db["Delves"] = {
+	244193, -- L00T RAID-R Mini
+	-- Bounty Maps
+	265714, -- Trovehunter's Bounty
+	274374, -- Trovehunter's Bounty
+	-- Combat Curios
+	249219, -- Ouroboric Curse
+	249220, -- Mantle of Stars
+	249221, -- Sanctum's Edict
+	249222, -- Nether Entropic Kris
+	249223, -- Corrosive Bilespear
+	257683, -- Porcelain Blade Tip
+	257755, -- Holy Bounding Hand Grenade
+	271132, -- Essence Trap
+	-- Utility Curios
+	249224, -- Motionless Nulltide
+	249225, -- Mandate of Sacred Death
+	249226, -- Ebon Crown of Subjugation
+	249227, -- Dundun's Favor
+	249228, -- Soul-Cracking Dreamcatcher
+	257768, -- Time Lost Edict
+	257866, -- Overflowing Voidspire
+	271130, -- Venom Infusion
+	-- Nemesis Lure
+	275910, -- Scalebound Herald's Flute
+	-- Random Delve Items
+	254256, -- Delver's Bounty
+	263178, -- Delver's Starter Kit
+	263179, -- Delver's Cosmetic Surprise Bag
+	264414, -- Midnight Delver's Flare Gun
+	267291, -- Coffer Key Glue
+	275936, -- Delve-O-Bot 7001: Midnight Software Update Chip
+	275978, -- Delver's Starter Kit
+	275986, -- Delver's Cosmetic Surprise Bag
+	-- Delve Caches
+	262635, -- Cache of Delver's Spoils (246)
+	263400, -- Cache of Delver's Spoils (259)
+	268969, -- Nebulous Voidcache: Delver's Trove
+	273152, -- Delve Gearbox (220)
+	273153, -- Delve Gearbox (230)
+	273154, -- Delve Gearbox (243)
+	273155, -- Delve Gearbox (259)
+	273156, -- Delve Gearbox (263)
+	279284, -- Nebulous Voidcache: Delver's Trove
+}
+
 -- Vaults of Atal'Utek
 -----------------------------------------------------------
 addon.db["Vaults of Atal'Utek"] = {
@@ -1301,6 +1351,23 @@ addon.db["Vaults of Atal'Utek"] = {
 	280005, -- Dispelling Charm
 	280006, -- Spirit Loupe
 	281223, -- Satchel of Corrosive Coins
+}
+
+-- Prey
+-----------------------------------------------------------
+addon.db["Prey"] = {
+	255825, -- Disarmed Trap
+	274422, -- Ossified Relic
+	275726, -- Preyhunter's Champion Chest
+	275899, -- Venom-Soaked Satchel
+	275917, -- Preyhunter's Veteran Sack
+	275918, -- Preyhunter's Adventurer Chest
+	275919, -- Preyhunter's Adventurer Sack
+	276258, -- Companion Command Crystal
+	276547, -- Afflicted Soul
+	276548, -- Tormented Soul
+	279092, -- Anguish-Touched Pouch
+	279574, -- Preyhunter's Hero Chest
 }
 
 -- Creature Drops

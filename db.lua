@@ -74,7 +74,6 @@ addon.db["Midnight Ore & Metal"] = {
 	238205, -- Sterling Alloy (R2)
 
 	-- Special
-	239611, -- Pure Loanite
 	243060, -- Luminant Flux
 	251283, -- Tormented Tantalum
 }

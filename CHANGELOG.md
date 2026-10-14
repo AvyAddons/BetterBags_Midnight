@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Bump TOC to 12.1.5
 
+### Removed
+- Pure Loanite, which no longer exists in 12.1.5
+
 ## [1.9.0] 2026-09-11
 ### Added
 - Midnight Currencies

@@ -16,3 +16,4 @@ ignore:
     - mise.toml
     - .github
     - .claude
+    - README.md
